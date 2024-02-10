@@ -1,14 +1,14 @@
 {
     "uid": "101",
-    "appId": "17cb7ec4e5d845498de0f75eeac4273a",
-    "channelName": "demoChannel",
-    "token": "007eJxSYPiY5NG95+bRqTt2KbNLi03y6FgYrLiKX4DLpk3xgFZikL4Cg6F5cpJ5arJJqmmKhYmpiaVFSqpBmrlpampisomRuXGiq+3c1AItRob8n4rMjAxMDIwMjAwgPjODoZExIAAA//81nRsu",
-    "serverUrl": "https://agora-token-server-5rci.onrender.com",
+    "appId": "<Your app Id>",
+    "channelName": "demo",
+    "token": "<Your RTM token>",
+    "serverUrl": "<The complete URL of your token server>",
     "tokenExpiryTime": 150,
     "presenceTimeout": 300,
     "logUpload": false,
     "logLevel": "debug",
     "useStringUserId": false,
-    "rtcToken": "007eJxSYJgqMVMzt21NoOrynKqJmVs3ys82s5r9iHPK/9q9bK+LcwUVGAzNk5PMU5NNUk1TLExMTSwtUlIN0sxNU1MTk02MzI0TO07PT/3gz8hw6+AUVkYGCATxWRhSUnPzmRkMDQwBAQAA//+qdiGM"
+    "rtcToken": "<Your RTC Token to join a stream channel>"
   }
   
