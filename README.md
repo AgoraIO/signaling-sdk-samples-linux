@@ -49,7 +49,7 @@ To run the sample projects in this repository, take the following steps:
 
 1. **Integrate the Signaling SDK for Linux** 
 
-    1. Download the [Agora Signaling SDK 2.x for Linux](https://download.agora.io/rtm2/release/Agora_RTM_C%2B%2B_SDK_for_Linux_v218.zip?_gl=1) and unzip the contents.
+    1. Download the [Agora Signaling SDK 2.x for Linux](https://download.agora.io/rtm2/release/Agora_RTM_C%2B%2B_SDK_for_Linux_v219.zip?_gl=1) and unzip the contents.
 
     1. Copy the file `libagora_rtm_sdk.so` to the `<samples-root>/signaling-sdk-samples-linux/lib` folder.
 
