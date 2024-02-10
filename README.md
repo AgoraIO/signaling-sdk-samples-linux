@@ -15,7 +15,7 @@ The runnable code examples are:
 
 - [SDK quickstart](./sdk-quickstart/README.md) - the minimum code you need to integrate low-latency, high-concurrency signaling features into your app using Signaling SDK.
 - [Token authentication](./authentication-workflow/README.md) - retrieve a token from the server, and use it to connect securely to Signaling as a specific user.
-- [Presence](./stream-channel/README.md) - get information about the status of users in specified channels.
+- [Presence](./presence/README.md) - get information about the status of users in specified channels.
 - [Stream channels](./stream-channel/README.md) - communicate with other users in topics.
 - [Store channel and user data](./storage/README.md) - easily store data for users and channels without the need to set up your own database. 
 - [Data Encryption](./data-encryption/README.md) - integrate built-in data encryption into your Signaling app.
@@ -51,9 +51,9 @@ To run the sample projects in this repository, take the following steps:
 
     1. Download the [Agora Signaling SDK 2.x for Linux](https://download.agora.io/rtm2/release/Agora_RTM_C%2B%2B_SDK_for_Linux_v218.zip?_gl=1) and unzip the contents.
 
-    1. Copy the file `libagora_rtm_sdk.so` to the `<samples-root>/lib` folder.
+    1. Copy the file `libagora_rtm_sdk.so` to the `<samples-root>/signaling-sdk-samples-linux/lib` folder.
 
-    1. Copy the `include` folder to `<samples-root>` folder.
+    1. Copy the `include` folder to the `<samples-root>/signaling-sdk-samples-linux` folder.
    
 1. **Modify the project configuration**
 
