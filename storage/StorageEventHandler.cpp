@@ -51,7 +51,7 @@ std::string StorageEventHandler::getStorageEventDescription(RTM_STORAGE_EVENT_TY
 
 void StorageEventHandler::onStorageEvent(const StorageEvent &event)
 {
-    cbPrint(("Lock event: " + getStorageEventDescription(event.eventType)).c_str());
+    cbPrint(("Storage event: " + getStorageEventDescription(event.eventType)).c_str());
 }
 
 void StorageEventHandler::onLockEvent(const LockEvent &event)
