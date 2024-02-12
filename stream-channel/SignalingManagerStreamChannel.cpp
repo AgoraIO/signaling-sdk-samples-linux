@@ -26,7 +26,7 @@ void SignalingManagerStreamChannel::joinStreamChannel(std::string channelName)
     }
 
     // Join the stream channel
-    std::string rtcToken = fetchRTCToken(channelName); // config["rtcToken"];
+    std::string rtcToken = fetchRTCToken(channelName);
     JoinChannelOptions options;
     options.token = rtcToken.c_str();
     options.withLock = true;
