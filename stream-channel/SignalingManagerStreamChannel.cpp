@@ -35,7 +35,7 @@ void SignalingManagerStreamChannel::joinStreamChannel(std::string channelName)
 
     uint64_t requestId; // Output parameter used to identify and process the result
     int ret = streamChannel->join(options, requestId);
-    std::cout << "setLock returned: " << ret << std::endl;
+    std::cout << "joinStreamChannel returned: " << ret << std::endl;
 }
 
 void SignalingManagerStreamChannel::leaveStreamChannel(std::string channelName)
